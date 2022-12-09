@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #2b2b2b;
+}
+
+.form-wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  height: 70px;
+  width: 400px;
+  border-radius: 20px;
+  border: solid #1b1c1e 2px;
+}
+
+input::placeholder {
+  font-size: 2rem;
+  color: rgba(245, 245, 245, 0.379);
+  text-align: center;
+}
+
+input.search {
+  outline: none !important;
+  color: white;
+  font-size: 2rem;
+}
