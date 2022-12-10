@@ -30,3 +30,27 @@ input.search {
   color: white;
   font-size: 2rem;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  padding-top: 20px;
+  list-style-type: none;
+}
+
+li {
+  padding: 20px;
+  margin: 10px;
+  color: aliceblue;
+  background-color: #1b1c1e;
+  border-radius: 20px;
+  display: flex;
+}
+
+.hl {
+  background: rgba(245, 245, 245, 0.379);
+}
